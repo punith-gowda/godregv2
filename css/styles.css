@@ -723,6 +723,10 @@ a:hover.back-to-top {
 		margin-left: 1.25rem;
 	}
 
+	.cards-2 .col-lg-12 div.card:nth-child(1) {
+		margin-left: 8rem;
+	}
+
 	/* end of services */
 
 
