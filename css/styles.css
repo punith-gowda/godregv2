@@ -3,6 +3,7 @@
 body,
 html {
 	width: 100%;
+	scroll-behavior: smooth;
 	height: 100%;
 }
 
@@ -10,7 +11,6 @@ body,
 p {
 	color: #787976;
 	font: 400 1rem/1.5625rem "Open Sans", sans-serif;
-	scroll-behavior: smooth;
 }
 
 .p-large {
@@ -394,7 +394,7 @@ strong {
 	background-blend-mode: lighten;
 	z-index: -1;
 	margin-bottom: 20px;
- }
+}
 
 .basic-1 .text-container {
 	margin-bottom: 3rem;
@@ -427,6 +427,25 @@ strong {
 	-moz-transform: scale(1.15);
 	-webkit-transform: scale(1.15);
 	transform: scale(1.15);
+}
+
+.section5 h2{
+	color: #14bf98;
+}
+
+.title-icon {
+	list-style: none;
+}
+
+.industry-tiles {
+	padding-top: 40px;
+}
+
+.title-section{
+	padding-top: 10px;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #141414;
 }
 
 
@@ -619,6 +638,11 @@ a:hover.back-to-top {
 	background-color: #13aa87;
 }
 
+
+.section5 {
+	padding-bottom: 10rem;
+}
+
 @media (min-width: 768px) {
 
 	/* General Styles */
@@ -626,6 +650,9 @@ a:hover.back-to-top {
 		width: 85%;
 		margin-right: auto;
 		margin-left: auto;
+	}
+	.feature-title-5{
+		margin-left: 20%;
 	}
 }
 
@@ -642,7 +669,13 @@ a:hover.back-to-top {
 
 	/* end of general styles */
 
+	.feature-title-5{
+		margin-left: 0%;
+	}
 
+	.feature-title-4{
+		margin-left: 20%;
+	}
 
 	.header .text-container {
 		margin-top: 6.5rem;
