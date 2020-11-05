@@ -15,6 +15,7 @@ p {
 
 .p-large {
 	font: 400 1.125rem/1.625rem "Open Sans", sans-serif;
+	color: #113448;
 }
 
 .p-small {
@@ -353,7 +354,10 @@ strong {
 }
 
 .header {
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/header-background.jpg') center center no-repeat;
+	background-position: 50% 0;
+	background-size: cover;
+	background: url("https://d1jys7grhimvze.cloudfront.net/backoffice/data_content/projects/the_highlands_at_godrej_city_mumbai/banners/Website_Banner.jpg") 50% 0px / cover no-repeat;
+	height: 719px;
 	background-size: cover;
 	min-height: 100vh;
 }
@@ -371,6 +375,7 @@ strong {
 .header h1 {
 	margin-bottom: 0.5rem;
 	color: #fff;
+	text-shadow: 0 0 6px black;
 }
 
 .header .p-large {
@@ -429,7 +434,7 @@ strong {
 	transform: scale(1.15);
 }
 
-.section5 h2{
+.section5 h2 {
 	color: #14bf98;
 }
 
@@ -441,7 +446,7 @@ strong {
 	padding-top: 40px;
 }
 
-.title-section{
+.title-section {
 	padding-top: 10px;
 	font-size: 1.5em;
 	font-weight: bold;
@@ -651,8 +656,13 @@ a:hover.back-to-top {
 		margin-right: auto;
 		margin-left: auto;
 	}
-	.feature-title-5{
+
+	.feature-title-5 {
 		margin-left: 20%;
+	}
+
+	.item-7 {
+		margin-left: 35%;
 	}
 }
 
@@ -669,11 +679,11 @@ a:hover.back-to-top {
 
 	/* end of general styles */
 
-	.feature-title-5{
+	.feature-title-5 {
 		margin-left: 0%;
 	}
 
-	.feature-title-4{
+	.feature-title-4 {
 		margin-left: 20%;
 	}
 
