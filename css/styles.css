@@ -354,8 +354,7 @@ strong {
 }
 
 .header {
-	background-position: 50% 0;
-	background-size: cover;
+	background-position: right;
 	background: url("https://d1jys7grhimvze.cloudfront.net/backoffice/data_content/projects/the_highlands_at_godrej_city_mumbai/banners/Website_Banner.jpg") 50% 0px / cover no-repeat;
 	height: 719px;
 	background-size: cover;
@@ -374,13 +373,15 @@ strong {
 
 .header h1 {
 	margin-bottom: 0.5rem;
-	color: #fff;
-	text-shadow: 0 0 6px black;
+	color: rgb(6, 26, 20);
+	text-shadow: 2px 2px 6px rgb(255, 255, 255);
 }
 
 .header .p-large {
 	margin-bottom: 2rem;
-	color: #dfe5ec;
+	color: #04101d;
+	font-weight: bold;
+	font-size: 20px;
 }
 
 .header .btn-solid-lg {
@@ -648,6 +649,11 @@ a:hover.back-to-top {
 	padding-bottom: 10rem;
 }
 
+.form-2 {
+	margin-bottom: 10rem;
+	margin-top: 10rem;
+}
+
 @media (min-width: 768px) {
 
 	/* General Styles */
@@ -688,7 +694,7 @@ a:hover.back-to-top {
 	}
 
 	.header .text-container {
-		margin-top: 6.5rem;
+		margin-top: 8.5rem;
 	}
 
 	/* end of header */
@@ -758,7 +764,7 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header .header-content {
-		padding-top: 14.75rem;
+		padding-top: 25.75rem;
 		padding-bottom: 17.5rem;
 	}
 
