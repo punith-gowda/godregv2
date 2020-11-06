@@ -282,7 +282,7 @@ strong {
 
 .header {
 	background-position: right;
-	background: url("https://d1jys7grhimvze.cloudfront.net/backoffice/data_content/projects/the_highlands_at_godrej_city_mumbai/banners/Website_Banner.jpg") 50% 0px / cover no-repeat;
+	background: url("https://d1jys7grhimvze.cloudfront.net/backoffice/data_content/projects/the_highlands_at_godrej_city_mumbai/banners/Website_Banner.jpg") 60% 0px / cover no-repeat;
 	height: 719px;
 	background-size: cover;
 	min-height: 100vh;
@@ -302,13 +302,16 @@ strong {
 	margin-bottom: 0.5rem;
 	color: rgb(6, 26, 20);
 	text-shadow: 2px 2px 6px rgb(255, 255, 255);
+
 }
 
-.header .p-large {
+.header .p-main {
 	margin-bottom: 2rem;
-	color: #04101d;
+	color: #ffffff;
+	text-shadow: 2px 2px 2px rgb(0, 0, 0);
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 24px;
+	z-index: 20;
 }
 
 .header .btn-solid-lg {
