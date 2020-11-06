@@ -362,7 +362,7 @@ strong {
 }
 
 .header .header-content {
-	padding-top: 60vh;
+	padding-top: 50vh;
 	padding-bottom: 2.125rem;
 	text-align: center;
 }
@@ -768,7 +768,7 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header .header-content {
-		padding-top: 25.75rem;
+		padding-top: 18.75rem;
 		padding-bottom: 17.5rem;
 	}
 

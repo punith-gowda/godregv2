@@ -65,3 +65,14 @@ $(document).mouseup(function (e) {
         $('.active').removeClass('active');
     }
 });
+
+
+function closeNav() {
+    document.getElementById("navbarsExampleDefault").style.width = "0";
+}
+
+$('body').on('click', function () {
+    if (parseInt($('#navbarsExampleDefault').css('width')) > 0) {
+        closeNav();
+    }
+});
