@@ -495,12 +495,6 @@ strong {
 .cards-2 {
 	padding-top: 6.625rem;
 	padding-bottom: 1.25rem;
-	background-image: url("../images/house.svg");
-	background-attachment: cover;
-	background-repeat: 2;
-	background-color: rgba(255, 255, 255, 0.979);
-	background-blend-mode: lighten;
-	z-index: -1;
 }
 
 .cards-2 .section-title {
