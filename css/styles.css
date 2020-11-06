@@ -302,7 +302,7 @@ strong {
 }
 
 .navbar-custom .nav-item .nav-link {
-	padding: 0.625rem 0.75rem 0.625rem 0.75rem;
+	padding: 1rem 0.75rem;
 	color: #fff;
 	text-decoration: none;
 	transition: all 0.2s ease;
