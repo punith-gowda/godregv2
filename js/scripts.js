@@ -14,12 +14,6 @@
         hidePreloader();
     });
 
-    // closes the responsive menu on menu item click
-    $(".navbar-nav li a").on("click", function (event) {
-        if (!$(this).parent().hasClass('dropdown'))
-            $(".navbar-collapse").collapse('hide');
-    });
-
     // create the back to top button
     $('body').prepend('<a href="#header" class="back-to-top page-scroll style:"position:fixed;">Back to Top</a>');
     var amountScrolled = 700;
@@ -48,31 +42,4 @@ $(function () {
             }
         }
     });
-});
-
-$(document).on('click', '.nav-link.active', function () {
-    var href = $(this).attr('href').substring(1);
-    //alert(href); 
-    $(this).removeClass('active');
-    $('.tab-pane[id="' + href + '"]').removeClass('active');
-
-});
-$(document).mouseup(function (e) {
-    var container = $("#tablist"); // target ID or class 
-    // if the target of the click isn't the container nor a descendant of the container 
-    if (!container.is(e.target) && container.has(e.target).length === 0) {
-        // get Event here 
-        $('.active').removeClass('active');
-    }
-});
-
-
-function closeNav() {
-    document.getElementById("navbarsExampleDefault").style.width = "0";
-}
-
-$('body').on('click', function () {
-    if (parseInt($('#navbarsExampleDefault').css('width')) > 0) {
-        closeNav();
-    }
 });

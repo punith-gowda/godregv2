@@ -30,6 +30,7 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap&subset=latin-ext"
         rel="stylesheet">
+    <link rel="stylesheet" href="side-nav/side-nav.css" />
     <link href="css/styles.css" rel="stylesheet">
 
 </head>
@@ -46,35 +47,36 @@
         </div>
     </div>
     <!-- end of preloader -->
+    <nav>
+        <div class="logo">
+            <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.png" alt="alternative"></a>
+            <button class="c-hamburger c-hamburger--htx">
+                <span>toggle menu</span>
+            </button>
+            <nav class="sub-menu open">
+                <ul class="list-unstyled">
+                    <li>
+                        <a class="nav-item smoothScroll" href="#header">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-item smoothScroll" href="#intro">Intro</a>
+                    </li>
+                    <li>
+                        <a class="nav-item smoothScroll" href="#services">Pricing</a>
+                    </li>
+                    <li>
+                        <a class="nav-item smoothScroll" href="#">Location</a>
+                    </li>
+                    <li>
+                        <a class="nav-item smoothScroll" href="#contact">Contact</a>
+
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </nav>
 
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
-        <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.png" alt="alternative"></a>
-
-        <!-- Mobile Menu Toggle Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <img src="./images/menu.png" alt="">
-        </button>
-        <!-- end of mobile menu toggle button -->
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link smoothScroll page-scroll text-center" href="#header">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link smoothScroll page-scroll text-center" href="#intro">INTRO</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link smoothScroll page-scroll text-center" href="#services">SERVICES</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link smoothScroll page-scroll text-center" href="#contact">CONTACT</a>
-                </li>
-            </ul>
-    </nav> <!-- end of navbar -->
 
 
     <!-- Header -->
@@ -497,6 +499,7 @@
     </script>
     <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
+    <script src="side-nav/side-nav.js"></script>
 </body>
 
 </html>
