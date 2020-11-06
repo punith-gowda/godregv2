@@ -593,6 +593,22 @@ strong {
 
 .accordion .item {
 	margin-bottom: 2rem;
+	animation: moving 2s linear infinite;
+}
+
+@keyframes moving {
+	25% {
+		transform: translateY(4px);
+	}
+
+	75% {
+		transform: translateY(-4px);
+	}
+
+}
+
+.item:hover {
+	animation-play-state: paused;
 }
 
 .accordion h4 {
