@@ -408,7 +408,7 @@ strong {
 
 .basic-2 {
 	padding-bottom: 2em;
-	margin-top: 10rem;
+	padding-top: 10rem;
 }
 
 .basic-2 h2 {
@@ -570,8 +570,8 @@ strong {
 }
 
 .accordion .item:hover span .circle-numbering {
-	border: 0.125rem solid #10ca9f;
-	color: #00ffc3;
+	border: 0.125rem solid #15211e;
+	color: #000000;
 }
 
 .accordion .accordion-title {
@@ -587,14 +587,14 @@ strong {
 }
 
 .accordion .item:hover .accordion-title {
-	color: #42dfba;
+	color: #090909;
 }
 
 .accordion span .accordion-title {
 	color: #14bf98;
 }
 
-.accordion .accordion-body {
+.accordion {
 	margin-left: 3.125rem;
 }
 
