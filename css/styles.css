@@ -534,19 +534,9 @@ strong {
 
 .accordion .item {
 	margin-bottom: 2rem;
-	animation: moving 2s linear infinite;
 }
 
-@keyframes moving {
-	25% {
-		transform: translateY(3px);
-	}
 
-	75% {
-		transform: translateY(-3px);
-	}
-
-}
 
 .item:hover {
 	animation-play-state: paused;
@@ -556,8 +546,8 @@ strong {
 	margin-bottom: 0;
 }
 
-.accordion span[aria-expanded="true"] .circle-numbering,
-.accordion span[aria-expanded="false"] .circle-numbering {
+.accordion span.circle-numbering,
+.accordion span .circle-numbering {
 	display: inline-block;
 	width: 2.25rem;
 	height: 2.25rem;
@@ -573,15 +563,15 @@ strong {
 	transition: all 0.2s ease;
 }
 
-.accordion span[aria-expanded="false"] .circle-numbering {
-	border: 0.125rem solid #484a46;
+.accordion span .circle-numbering {
+	border: 0.125rem solid #2f9282;
 	background-color: transparent;
-	color: #484a46;
+	color: #2f9282;
 }
 
-.accordion .item:hover span[aria-expanded="false"] .circle-numbering {
-	border: 0.125rem solid #14bf98;
-	color: #14bf98;
+.accordion .item:hover span .circle-numbering {
+	border: 0.125rem solid #10ca9f;
+	color: #00ffc3;
 }
 
 .accordion .accordion-title {
@@ -589,7 +579,7 @@ strong {
 	width: 70%;
 	margin-top: 0.125rem;
 	margin-bottom: 0.25rem;
-	color: #484a46;
+	color: #2f9282;
 	font: 700 1.25rem/1.75rem "Montserrat", sans-serif;
 	vertical-align: middle;
 	cursor: pointer;
@@ -597,10 +587,10 @@ strong {
 }
 
 .accordion .item:hover .accordion-title {
-	color: #14bf98;
+	color: #42dfba;
 }
 
-.accordion span[aria-expanded="true"] .accordion-title {
+.accordion span .accordion-title {
 	color: #14bf98;
 }
 
@@ -667,10 +657,6 @@ a:hover.back-to-top {
 
 	.feature-title-5 {
 		margin-left: 20%;
-	}
-
-	.item-7 {
-		margin-left: 35%;
 	}
 }
 
